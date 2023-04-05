@@ -1,0 +1,68 @@
+Q-3. What are VOID Elements in HTML?
+     -------------------------------
+
+->  Most of the HTML elements are surrounded by start and end tags to specify the starting and 
+    end of the element.
+->  There is a special group of elements that only have start tags and does not contain any 
+    content within it, these elements are called void elements. 
+->  Void elements doesn’t have ending tags and can only have attributes but do not contain 
+    any kind of content. 
+->  These elements can have backslash before ending of start tag but that is completely optional. 
+
+Example:-
+------- 
+<br>, <hr>, <img>, <link>, <meta>, etc.
+
+
+Characteristics:-
+---------------
+- Void elements do not have end tags.
+- Void elements cannot have content inside it.
+- Void elements have attributes.
+- Void elements cannot be nested.
+
+HTML <br> Tag:
+_____________
+This tag is used to insert line breaks in text in HTML.
+
+Example:
+--------
+<!DOCTYPE html>
+<html>
+  
+<body>
+    <h2 style="color:green">GeeksforGeeks</h2>    
+    <p>Hi Geeks! <br> Welcome to GeeksforGeeks</p>
+  
+</body>
+</html>Q-4. What are HTML Entities?
+     -----------------------
+
+-> An HTML entity is a piece of text ("string") that begins with an ampersand (&) and ends with a 
+   semicolon (;).
+-> Entities are frequently used to display reserved characters 
+   [Which would otherwise  be interprited as HTML code]
+   and invisible characters [like non-breaking spaces]
+
+-> Many characters have memorable entities.
+   i.e.
+   The entity for Copyright symbol is &copy;
+                                      ------
+
+-> Less memorable characters,
+   i.e.
+   &#8212; is for reference chart.
+   -------
+
+-> Some special characters are reserved for use in HTML, meaning that your browser will analyze them
+   as HTML code.
+
+   For example:
+   if you use the less-than (<) sign, the browser interprets any text that follows as a tag.
+-> To dispaly these characters as text, replace them with their corresponding character entities.
+   i.e.
+   & : &emp;
+   < : &lt;
+   > : &gt;
+   " : &quot;
+   
